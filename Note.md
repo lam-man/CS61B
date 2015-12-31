@@ -12,3 +12,4 @@ I made a more readable version of the class note. The classnote can only be read
 [Lecture9](https://www.zybuluo.com/Mu-Mu-Gua/note/254677)
 [Lecture10](https://www.zybuluo.com/Mu-Mu-Gua/note/256012)
 [Lecture11](https://www.zybuluo.com/Mu-Mu-Gua/note/256479)
+[Lecture12](https://www.zybuluo.com/Mu-Mu-Gua/note/256482)
