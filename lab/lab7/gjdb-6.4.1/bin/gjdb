@@ -1,0 +1,12 @@
+#!/bin/sh
+
+APPHOME="/Library/Java/Home"
+UCBCLASSES="/Users/linwen/share/gjdb/lib/gjdb.jar"
+JDICLASSES=""
+
+JAVA=${APPHOME}/bin/java
+
+CLASSPATH=".:${UCBCLASSES}:${JDICLASSES:+:${JDICLASSES}}${CLASSPATH:+:${CLASSPATH}}"
+export CLASSPATH
+
+exec ${JAVA} -Djava.compiler -Dapplication.home=${APPHOME} ucb.gjdb.GJDB $*
